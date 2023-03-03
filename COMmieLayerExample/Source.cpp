@@ -36,7 +36,7 @@ int main()
 	IPersistFile* pPersist = nullptr;
 	pLink->QueryInterface(__uuidof(IPersistFile), reinterpret_cast<void**>(&pPersist));
 
-	pPersist->Save(L"C:\\wallpaper.lnk", FALSE);
+	pPersist->Save(L"C:\\Users\\ukrgr\\wallpaper.lnk", FALSE);
 	pPersist->Release();
 	pLink->Release();
 
